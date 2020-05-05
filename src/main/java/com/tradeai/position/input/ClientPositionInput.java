@@ -15,7 +15,6 @@ public class ClientPositionInput {
 
 	private String settlementDate;
 
-	private String transactionReceivingDate;
 
 	private String securityId;
 

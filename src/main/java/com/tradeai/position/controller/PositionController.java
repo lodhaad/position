@@ -77,7 +77,7 @@ public class PositionController {
 			dto.setSecurityId(clientPosition.getSecurityId());
 			dto.setQuantity(clientPosition.getQuantity());
 			dto.setSettlementDate(clientPosition.getSettlementDate());
-			dto.setTransactionReceivingDate(clientPosition.getTransactionReceivingDate());
+			///dto.setTransactionReceivingDate(clientPosition.getTransactionReceivingDate());
 			dto.setShortCoverIndicator(clientPosition.getShortCoverIndicator());
 			dto.setTradeDate(clientPosition.getSettlementDate());
 			dto.setPriceOfSecurity(clientPosition.getPriceOfSecurity());

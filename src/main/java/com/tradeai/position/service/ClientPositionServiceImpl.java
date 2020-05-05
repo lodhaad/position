@@ -49,7 +49,7 @@ public class ClientPositionServiceImpl implements ClientPositionService {
 			clientPos.setQuantity(dto.getQuantity());
 			clientPos.setSettlementDate(Date.valueOf(dto.getSettlementDate()));
 			clientPos.setShortCoverIndicator(dto.getShortCoverIndicator());
-			clientPos.setTransactionReceivingDate(Date.valueOf(dto.getTransactionReceivingDate()));
+			///clientPos.setTransactionReceivingDate(Date.valueOf(dto.getTransactionReceivingDate()));
 			clientPos.setPriceOfSecurity(dto.getPriceOfSecurity());
 			clientPos.setTradeDate(Date.valueOf(dto.getTradeDate()));
 			position.add(clientPos);
@@ -73,7 +73,7 @@ public class ClientPositionServiceImpl implements ClientPositionService {
 			dto.setBatchPositionId(saveCP.getBatchPositionId());
 			dto.setClientPositionId(saveCP.getClientPositionId());
 			dto.setSettlementDate(saveCP.getSettlementDate());
-			dto.setTransactionReceivingDate(saveCP.getTransactionReceivingDate());
+			//dto.setTransactionReceivingDate(saveCP.getTransactionReceivingDate());
 			dto.setPriceOfSecurity(saveCP.getPriceOfSecurity());
 			dto.setTradeDate(saveCP.getTradeDate());
 			dto.setShortCoverIndicator(saveCP.getShortCoverIndicator());

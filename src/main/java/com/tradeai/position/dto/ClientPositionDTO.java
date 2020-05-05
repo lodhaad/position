@@ -25,7 +25,8 @@ public class ClientPositionDTO {
 
 	private Date settlementDate;
 
-	private Date transactionReceivingDate;
+
+
 
 	private String securityId;
 
@@ -77,22 +78,7 @@ public class ClientPositionDTO {
 		return sdf.format(tradeDate);
 	}
 
-	public void setTransactionReceivingDate(String date) throws ParseException {
-
-		transactionReceivingDate = sdf.parse(date);
-
-	}
-	
-	public void setTransactionReceivingDate(java.sql.Date date) throws ParseException {
-
-		transactionReceivingDate = new Date(date.getTime());
 
 
-	}
-
-	public String getTransactionReceivingDate() {
-
-		return sdf.format(transactionReceivingDate);
-	}
 
 }
